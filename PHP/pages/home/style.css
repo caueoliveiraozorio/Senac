@@ -1,0 +1,35 @@
+/* Define o estilo básico do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5; /* Cor de fundo suave */
+    color: #333; /* Cor do texto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Centraliza o conteúdo verticalmente */
+}
+
+/* Estiliza o cabeçalho "Home" */
+h2 {
+    font-size: 2rem; /* Tamanho da fonte */
+    color: #0073e6; /* Cor azul para o título */
+    text-align: center; /* Centraliza o título */
+    margin: 0;
+    padding: 10px;
+    border-bottom: 2px solid #ddd; /* Linha embaixo do título */
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Estilo de container centralizado */
+.container {
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra ao redor */
+    background-color: #fff; /* Fundo branco */
+    border-radius: 8px; /* Bordas arredondadas */
+    width: 100%;
+    max-width: 500px;
+}

@@ -1,3 +1,7 @@
+<body>
+    <link rel="stylesheet" href="style.css">
+</body>
+
 <?php
 // Inclui o arquivo de conexão com o banco de dados
 include_once __DIR__ . "/../db/database.php";
@@ -49,3 +53,6 @@ class LoginController
         }
     }
 }
+
+
+// http://localhost/senac/backend/controller/loginController.php

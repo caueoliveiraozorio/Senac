@@ -4,6 +4,7 @@
     <meta charset="UTF-8"> <!-- Define a codificação de caracteres para UTF-8 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Torna a página responsiva para dispositivos móveis -->
     <title>Login</title> <!-- Título da página -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Formulário de login -->
@@ -50,3 +51,5 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 }
 
 ?>
+
+<!-- http://localhost/senac/index.php -->
